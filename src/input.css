@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  @media (min-width: 1024px) { /* Sesuaikan dengan breakpoint desktop Anda */
+    #navbarCollapse {
+      display: block; /* Menyediakan tampilan default di desktop */
+      position: static; /* Menghapus posisi absolut jika tidak diperlukan */
+      background: transparent; /* Background transparan jika Anda menginginkan */
+      box-shadow: none; /* Menghapus shadow jika tidak diperlukan */
+    }
+  }
+  
